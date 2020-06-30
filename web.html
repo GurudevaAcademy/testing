@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>website using html and css</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+		body{
+			background-color: skyblue;
+			background-image: url('drewtaylor.jpg');
+		}
+		figure{
+			display: inline-block;
+			border: 1px dotted gray;
+			margin: 20px;
+		}
+		figure img{
+			vertical-align: top;
+		}
+		figure figcaption{
+			border:ipx dotted blue;
+			text-align: center;
+		}
+		#navigation{
+			background-color: #DE8887;		}
+		.last{
+			background-color: gray;
+		}
+		.first{
+			float: left;
+			width: 33.33%;
+			padding: 5px;
+		}
+		.last::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+		.column{
+			float: left;
+			width: 20%;
+			padding: 5px;
+		}
+		.row::after {
+			content: "";
+			clear: both;
+			display: table;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="navigation" >
+		<h1 style="font-family: monospace;">CHINESE RESTAURANT</h1>
+		<figure>
+		 <img src="C:\Users\Meghana M S\Downloads\WhatsApp Image 2020-06-30 at 09.45.25.jpeg"height="80" width="80" style="border: 2px; margin:1px background-color:#DE8887"></figure>
+		<a href="">Home</a>
+		<a href="contactus.html">Contact</a>
+		<a href="review.html">Reviews</a>
+		<p>Contact us:<a href="tel:9731969975">9731969975</a></p></div>
+		<figure>
+		 <img src="C:\Users\Meghana M S\Downloads\nick-karvounis-Ciqxn7FE4vE-unsplash.jpg"height="400" width="100%"></figure>
+		<div class="row">
+			<div class="column">
+				
+			<a href="menu.html"><figure>
+            <img src="C:\Users\Meghana M S\Downloads\sj-baren-GZe_M6TUJ_k-unsplash.jpg"height="150" width="150" vspace="60" hspace="60"><figcaption>MENU</figcaption>
+	       
+		</figure></a></div>
+		<div class="column">
+				
+			<a href="specials.html"><figure>
+            <img src="C:\Users\Meghana M S\Downloads\mae-mu-H5Hj8QV2Tx4-unsplash.jpg"height="150" width="150" vspace="60" hspace="60"><figcaption>SPECIALS</figcaption>
+	       
+		</figure></a></div>
+		<div class="column">
+				
+			<a href="drinks.html"><figure>
+            <img src="C:\Users\Meghana M S\Downloads\hilary-hahn-Ic_J1jKhDYE-unsplash.jpg"height="150" width="150" vspace="60" hspace="60"><figcaption>DRINKS</figcaption>
+	       
+		</figure></a></div>
+
+		<div class="column"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3882.172860506826!2d78.2060426!3d13.339521!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bb20be6259631b3%3A0x6e84733c31df2205!2sSrinivasapura!5e0!3m2!1sen!2sin!4v1593445834095!5m2!1sen!2sin" width="200" height="200" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe></div></div>
+		<div><a href="delivery.html">ORDER HERE</a></div>
+		<div class="last">
+
+		<div class="first"><h3>Hours</h3>
+		<p>Mon-Friday:10am-10pm</p>
+		<p>Saturday:10am-5pm</p>
+		<p>Sunday closed</p></div>
+		<div class="first">
+			<p>The best chinese restaurant I have ever been to!!</p><br>
+			<p>Amazing food!Great service</p></div>
+		<div class="first">
+			<h3>Address</h3>
+			<p>Srinivasapur</p>
+			<p>Kolar(district)</p></div>
+		
+	</div>
+
+			
+        
+</body>
+</html>
